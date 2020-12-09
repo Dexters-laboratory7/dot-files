@@ -14,5 +14,11 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 
 let g:airline_theme='dark_minimal'
 
+
 map <F2> :NERDTreeToggle<CR>
-colorscheme nord
+colorscheme desert
+inoremap ( ()<C-G>U<Left>
+inoremap { {<CR>}<Esc>ko
+inoremap [ []<C-G>U<Left>
+inoremap < <><C-G>U<Left>
+inoremap " ""<C-G>U<Left>
