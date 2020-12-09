@@ -22,3 +22,4 @@ inoremap { {<CR>}<Esc>ko
 inoremap [ []<C-G>U<Left>
 inoremap < <><C-G>U<Left>
 inoremap " ""<C-G>U<Left>
+inoremap ' ''<C-G>U<Left>
